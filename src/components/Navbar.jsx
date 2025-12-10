@@ -10,12 +10,7 @@ export default function Navbar() {
                 <div className=' place-items-end'>
                     <IoClose onClick={()=>setShow(!show)} className='text-3xl' />
                 </div>
-                <ul className='flex flex-col  font-semibold gap-y-5 text-xl text-center'>
-                    <li className='hover:text-green-500'><a href="#" className="active">Home</a></li>
-                    <li className='hover:text-green-500'><a href="#">Menu</a></li>
-                    <li className='hover:text-green-500'><a href="#">Services</a></li>
-                    <li className='hover:text-green-500'><a href="/about">About</a></li>
-                </ul>
+                
             </div>
 
             <div className='mx-5 md:mx-20 py-5'>
