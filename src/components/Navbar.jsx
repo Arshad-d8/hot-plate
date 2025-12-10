@@ -6,12 +6,12 @@ export default function Navbar() {
     const [show, setShow] = useState(false)
     return (
         <div className='fixed w-full bg-white/90'>
-            <div className={`bg-white h-full p-5  w-1/2 fixed md:hidden transform transition-transform duration-300 ${show ? "translate-x-0" : "-translate-x-full"}`}>
+            {/* <div className={`bg-white h-full p-5  w-1/2 fixed md:hidden transform transition-transform duration-300 ${show ? "translate-x-0" : "-translate-x-full"}`}>
                 <div className=' place-items-end'>
                     <IoClose onClick={()=>setShow(!show)} className='text-3xl' />
                 </div>
                 
-            </div>
+            </div> */}
 
             <div className='mx-5 md:mx-20 py-5'>
                 <div className='flex justify-between  items-center'>
